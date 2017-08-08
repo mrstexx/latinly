@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Latinly - Komparacija</title>
+    <link rel="shortcut icon" href="../favicon.png" />
+    <link rel="stylesheet" href="../lib/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <script
+        src="../lib/jquery-3.2.0.min.js">  
+    </script>
+    <script src="../lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="pocetna.html">
+          <span><img src="../logo.png" alt=""></span>
+          Latinly
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+      <li><a href="pocetna.html">Početna</a></li>
+        <li><a href="../index1.html">Imenice</a></li>
+        <li><a href="attribute.html">Pridjevi</a></li>
+        <li><a href="verbs.html">Glagoli</a></li>
+        <li class="active"><a href="comparison.html">Komparacija</a></li>
+        <li><a href="quotes.html">Izreke</a></li>
+        <li><a href="numbers.html">Brojevi</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      <li><a href="../pages/comparison.html">ENG</a></li>
+        <li><a href="aboutUs.html">O nama</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="container">
+
+    <h2>Komparacija pridjeva</h2>
+
+    <div class="form-inline">
+        <div class="form-group">
+            <input type="text" placeholder="Nominativ sg." class="form-control" id="firstInput">
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="Genitiv sg." class="form-control" id="secondInput">
+        </div>
+        <button type="button" id="button" class="btn btn-primary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Niste popunili sva polja!">
+            Kompariraj
+        </button>
+        <button type="submit" class="btn btn-primary" id="reset">Reset</button>
+    </div>
+    
+    <div id="error">
+        
+    </div>
+    <div class="row" id="row">
+        <div class="col-md-8">
+            <table class="table table-bordered">
+                <tr>
+                    <th>Pridjev</th>
+                    <th>Komparativ</th>
+                    <th>Superlativ</th>
+                </tr>
+                <tr>
+                    <td id="basic"></td>
+                    <td id="comp"></td>
+                    <td id="sup"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <br>    
+    <h3>Nepravilna komparacija</h3>
+    <div class="row" id="row">
+        <div class="col-md-8">
+            <table class="table table-bordered">
+                <tr>
+                    <th>Pridjev</th>
+                    <th>Komparativ</th>
+                    <th>Superlativ</th>
+                </tr>
+                <tr>
+                    <td>BONUS, 3</td>
+                    <td>MELIOR, MELIUS</td>
+                    <td>OPTIMUS, A, UM</td>
+                </tr>
+                <tr>
+                    <td>MALUS, 3</td>
+                    <td>PEIOR, PEIUS</td>
+                    <td>PESSIMUS, A, UM</td>
+                </tr>
+                <tr>
+                    <td>MAGNUS, 3</td>
+                    <td>MAIOR, MAIUS</td>
+                    <td>MAXIMUS, A, UM</td>
+                </tr>
+                <tr>
+                    <td>PARVUS, 3</td>
+                    <td>MINOR, MINUS</td>
+                    <td>MINIMUS, A, UM</td>
+                </tr>
+                <tr>
+                    <td>MULTUS, 3</td>
+                    <td>/, PLUS</td>
+                    <td>PLURIMUS, A, UM</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+ <footer>  
+    <p class="text-center">Copyright &copy 2017 Latinly</p>
+  </footer>
+<script src="../script/adjectiveScript.js"></script>
+</body>
+</html>

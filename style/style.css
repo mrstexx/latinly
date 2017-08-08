@@ -1,0 +1,124 @@
+body { 
+    padding-top: 70px;
+}
+
+.container {
+    min-height: 100%;
+}
+
+.form-inline {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#row {
+    margin-top: 20px;
+}
+
+.navbar-brand {
+    padding: 0;
+    margin-right: 50px;
+}
+
+span {
+    line-height: 20px;
+    display: inline;
+}
+
+span img {
+    width: 50px;
+}
+
+footer {
+    position:fixed;
+    color: #9d9d9d;
+	background:#101010;
+    height: 40px;
+    padding-top: 10px;
+	width:100%;
+	bottom:0;
+	left:0;
+    text-align:center;
+    margin-top: 10px;
+}
+
+.white-space-pre{
+    display:block;
+    white-space: pre-wrap;
+font-size: 15px;
+}
+
+
+
+
+#dob {
+    font-family: "Lobster", sans-serif;
+    font-size: 200px;
+    font-weight: bold;
+    text-align: center;
+ padding: 70px 0;
+}
+
+.mask-galaxy {
+    background: url(../photos/bl.jpg)center center;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-animation: travelGalaxy 20s linear infinite;
+    -moz-animation: travelGalaxy 20s linear infinite;
+    -moz-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-animation: travelGalaxy 20s linear infinite;
+    -o-text-fill-color: transparent;
+    -o-background-clip: text;
+    -o-animation: travelGalaxy 20s linear infinite;
+}
+
+@-webkit-keyframes travelGalaxy {
+    0% {background-position: right bottom;}
+    100% {background-position: left top;}
+}
+@-moz-keyframes travelGalaxy {
+    0% {background-position: right bottom;}
+    100% {background-position: left top;}
+}
+.broj {
+    color:black;
+    font-size:25px;
+    margin-bottom: 40px;
+    padding-right:10px;
+    border: 2px solid black;
+    text-align: left;
+    padding-left: 8px;
+    background-color:white;
+    
+}
+#lin{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 5px #888888;
+}
+#tekst{
+
+}
+
+#a1 {
+    background-color: #C3ECFA;
+}
+#a2 {
+    background-color: #ECC3FA;
+}
+#a3 {
+    background-color: #FAD1C3;
+}
+#a4 {
+    background-color: #D1FAC3;
+}
+#a5 {
+    background-color: #E6739B;
+}
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}

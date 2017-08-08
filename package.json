@@ -1,0 +1,11 @@
+{
+  "name": "latinly",
+  "version": "1.0.0",
+  "description": "Aplikacija za latinski jezik",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stefan Miljevic, Andrej Pavlica, Armano Merdzic",
+  "license": "ISC"
+}

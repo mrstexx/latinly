@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Latinly - Numbers</title>
+    <link rel="shortcut icon" href="../favicon.png" />
+    <link rel="stylesheet" href="../lib/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <script
+        src="../lib/jquery-3.2.0.min.js">  
+    </script>
+    <script src="../lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="pocetna.html">
+          <span><img src="../logo.png" alt=""></span>
+          Latinly
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+      <li><a href="pocetna.html">Home</a></li>
+        <li><a href="../index.html">Nouns</a></li>
+        <li><a href="attribute.html">Adjectives</a></li>
+        <li><a href="verbs.html">Verbs</a></li>
+        <li><a href="comparison.html">Comparison</a></li>
+        <li><a href="quotes.html">Quotes</a></li>
+        <li class="active"><a href="numbers.html">Numbers</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      <li><a href="../pages1/numbers.html">BOS</a></li>
+        <li ><a href="aboutUs.html">About us</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="container">
+  <h2 id="num">Numbers</h2>
+  <p style="text-align: center">Latin Numbers can be expressed in both Arabic and Latin numeral notation. Knowing your Latin numbers is essential for any Latin speaker, whether you’re a beginner or advanced, so I’ve included a table below for your convenience. If you know your numbers from 1-1000, I promise you’ll impress your friends with your Roman numeral knowledge.</p>
+
+  <h3>Convert to Roman number</h3>
+  <div class="form-inline">
+    <input type="number" id="numb" class="form-control" placeholder="Enter number">
+    <button class="btn btn-primary" id="convert">Convert</button>
+    <input class="form-control" id="disabledInput" type="text" placeholder="Result" disabled>
+  </div>
+  <div id="error">
+
+  </div>
+
+  <table id="lin" class="broj table">
+      <td class="broj" id="a1">
+        1 I ūnus<br>
+
+        2 II  duo<br>
+
+        3 III trēs<br>
+
+        4 IV  quattuor<br>
+
+        5 V quīnque<br>
+
+        6 VI  sex<br>
+
+        7 VII septem<br>
+
+        8 VIII  octō<br>
+
+        9 IX  novem<br>
+
+        10  X decem<br>
+
+        11  XI  ūndecim<br>
+      </td>
+      <td  class="broj" id="a2">
+        12  XII duodēcim<br>
+
+        13  XIII  trēdecim<br>
+
+        14  XIV quattuordecim<br>
+
+        15  XV  quīndecim<br>
+
+        16  XVI sēdecim<br>
+
+        17  XVII  septendecim<br>
+
+        18  XVIII duodēvīgintī<br>
+
+        19  XIX ūndēvīgintī<br>
+
+        20  XX  vīgintī<br>
+
+        21  XXI vīgintī  ūnus<br>
+
+        22  XXII  vīgintī  duo<br>
+      </td>
+      <td class="broj" id="a3">
+        23  XXIII vīgintī  trēs<br>
+
+        24  XXIV  vīgintī  quattuor<br>
+
+        25  XXV vīgintī  quīnque<br>
+
+        26  XXVI  vīgintī  sex<br>
+
+        27  XXVII vīgintī  septem<br>
+
+        28  XXVIII  duodētrīgintā <br>
+
+        29  XXIX  ūndētrīgintā <br>
+
+        30  XXX trīgintā<br>
+
+        31  XXXI  trīgintā  ūnus<br>
+
+        32  XXXII trīgintā  duo<br>
+
+        33  XXXIII  trīgintā  trēs<br>
+      </td>
+      <td class="broj" id="a4">
+
+        34  XXXIV trīgintā quattuor<br>
+
+        35  XXXV  trīgintā  quīnque<br>
+
+        36  XXXVI trīgintā  sex<br>
+
+        37  XXXVII  trīgintā  septem<br>
+
+        38  XXXVIII duodēquadrāgintā<br>
+
+        39  XXXIX ūndēquadrāgintā <br>
+
+        40  XL  quadrāgintā<br>
+
+        50  L quīnquāgintā<br>
+
+        60  LX  sexāgintā<br>
+
+        70  LXX septuāgintā<br>
+
+        80  LXXX  octōgintā<br>
+      </td>
+      <td class="broj" id="a5">
+
+        90  XC  nōnāgintā<br>
+
+        100 C centum<br>
+
+        200  CC    ducenti<br>
+
+        300  CCC  trecenti<br>
+
+        400  CD  quadringenti<br>
+
+        500    D    quingenti<br>
+
+        600  DC  sescenti<br>
+
+        700  DCC  septingenti<br>
+
+        800 DCCC  octingenti<br>
+
+        900  CM  nongenti<br>
+
+        1000  M    mille<br>
+      </td>
+    </table>
+  </div>
+  
+ <footer>  
+    <p class="text-center">Copyright &copy 2017 Latinly</p>
+  </footer>
+  <script src="../script/numberToRoman.js"></script>
+</body>
+</html>
